@@ -2,18 +2,84 @@ img{
 	max-width: 200px;
 }
 
-/* To push the body content below navbar */
-body{
-	padding-top: 50px;
-}
-
 /* To remove the default round edges and border in the navbar */
 .navbar{
 	border-radius: 0px;
 	border:0px;
 }
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+    font-family: 'AnimalsNormal';
+    src: url('fonts/animals-webfont.eot');
+    src: url('fonts/animals-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/animals-webfont.woff') format('woff'),
+         url('fonts/animals-webfont.ttf') format('truetype'),
+         url('fonts/animals-webfont.svg#AnimalsNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    background: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    color: #333;
+     postion:relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+	text-decoration: none;
+}
+
+.page{
+	padding: 50px 0;
+}
+
+.page h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.item-center{
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height:400px; /* or whatever width you want. */
+   max-height:400px; /* or whatever width you want. */
+}
+
+.bg-black{
+	background-color: #1a1a1a;
+	color:white;
+}
+.bg-white{
+	background-color: white;
+	color:black;
+}
+.bg-yellow{
+	background-color: yellow;
+	color:black;
+}
+.bg-pink{
+	background-color: #ff99dd;
+	color:black;
+}
+.bg-blue{
+	background-color: #80ffff;
+	color:black;
+}
+
+.bd-grey{
+	 border:2px dashed grey;
+}
+
 /* Contact Form
-=================================================================== */
+=================================================================== Starts */
 
 #contact-form input:-moz-placeholder,
 #contact-form textarea:-moz-placeholder {
@@ -54,190 +120,59 @@ body{
 	   -moz-border-radius: 0px;
 			border-radius: 0px;	
 }
+/* Contact Form
+=================================================================== Ends*/
 
+/* Header Navigation
+=================================================================== Starts*/
 
-
-
-
-
-/* demo.css */
-
-/* General Demo Style */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-
-@font-face {
-    font-family: 'AnimalsNormal';
-    src: url('fonts/animals-webfont.eot');
-    src: url('fonts/animals-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/animals-webfont.woff') format('woff'),
-         url('fonts/animals-webfont.ttf') format('truetype'),
-         url('fonts/animals-webfont.svg#AnimalsNormal') format('svg');
-    font-weight: normal;
-    font-style: normal;
+header .navbar{
+	padding:30px 0;
 }
 
-html { height: 100%; }
-
-*,
-*:after,
-*:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+header .navbar-default{
+	background-color: transparent;
+	border:none;
 }
 
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
-.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
+header .navbar-default .navbar-nav a{
+	color:green;
+	padding:5px 8px;
+}
+header .navbar-default .navbar-nav a:hover{
+	color:#EEC856;
 }
 
-body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
-    background: #fff;
-    font-weight: 300;
-    font-size: 15px;
-    color: #333;
-    -webkit-font-smoothing: antialiased;
-}
-
-a {
-	color: #555;
-	text-decoration: none;
-}
-
-.container {
-	width: 100%;
-	position: relative;
-}
-
-.container.demo-1 {
-	height: 100%;
-	position: absolute;
-}
-
-.clr {
-	clear: both;
-	padding: 0;
-	height: 0;
-	margin: 0;
-}
-
-.main {
-	width: 90%;
-	margin: 0 auto;
-	position: relative;
-}
-
-.container > header,
-.content-wrapper {
-	padding: 30px;
-	width: 80%;
-	max-width: 960px;
-	margin: 0 auto;
-}
-
-.content-wrapper p{
-	padding-top: 30px;
-	line-height: 26px;
-}
-
-.container > header h1 {
-	font-size: 34px;
-	line-height: 38px;
-	margin: 0;
+header .navbar-default .navbar-nav .active a{
 	font-weight: 700;
-	color: #333;
-	float: left;
+	color:#EEC856;
+	background: transparent;
+	border-bottom:4px solid #EEC856;
+	text-shadow: none;
 }
 
-.container > header h1 span {
-	display: block;
-	font-size: 20px;
-	font-weight: 300;
+header .navbar-default .navbar-nav .active a:hover{
+	color:#E15D5F;
+	background: transparent;
+	text-shadow: none;
+}
+/* Header Navigation
+=================================================================== Ends*/
+
+/* Branding Navigation
+=================================================================== Starts*/
+
+header .navbar-brand {
+	background:url(../img/.svg);
+	background-repeat: no-repeat;
+	background-position: 15px 0;
+	height: auto;
 }
 
-
-/* Header Style */
-.codrops-top {
-	line-height: 24px;
-	font-size: 11px;
-	background: #fff;
-	background: rgba(255, 255, 255, 0.8);
-	text-transform: uppercase;
-	z-index: 9999;
-	position: relative;
-	font-family: Cambria, Georgia, serif;
-	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
-}
-
-.codrops-top a {
-	padding: 0px 10px;
-	letter-spacing: 1px;
-	color: #333;
-	display: inline-block;
-}
-
-.codrops-top a:hover {
-	background: rgba(255,255,255,0.6);
-}
-
-.codrops-top span.right {
-	float: right;
-}
-
-.codrops-top span.right a {
-	float: left;
-	display: block;
-}
-
-/* Demo Buttons Style */
-.codrops-demos {
-	float: right;
-	padding-top: 10px;
-}
-
-.demo-1 .codrops-demos {
-	position: absolute;
-	z-index: 2000;
-	top: 30px;
-	left: 30px;
-}
-
-.codrops-demos a {
-    display: inline-block;
-    margin: 10px;
-    color: #333;
-    font-weight: 700;
-    line-height: 30px;
-    border-bottom: 4px solid transparent;
-}
-
-.codrops-demos a:hover {
-	color: #883d59;
-	border-color: #883d59;
-}
-
-.codrops-demos a.current-demo,
-.codrops-demos a.current-demo:hover {
-	color: #aaa;
-	border-color: #aaa;
-}
-/* demo css ends */
-
-.item-center{
-	margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.bg-black{
-	background-color: black;
-}
-
-.bd-grey{
-	 border:2px dashed grey;
+header .navbar-brand h1{
+	color:white;
+	margin:0;
+	font-size:1.8em;
+	font-weight: 400;
+	padding-left: 105;
 }
