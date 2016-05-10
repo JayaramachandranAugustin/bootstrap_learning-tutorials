@@ -125,120 +125,113 @@
 		
 		<div class="page" id="projects">
 			<div class="content container">
-			<!--start: Wrapper -->
-			<div class="wrapper span12">
-	
-							<!-- start: Page Title -->
-			<div id="page-title">
-
-				<div id="page-title-inner">
-
-					<h2><span>Portfolio</span></h2>
-
-				</div>	
-
-			</div>
-			<!-- end: Page Title -->
 			
-
-			<div id="filters">
-				<ul class="option-set" data-option-key="filter">
-					<li><a href="#filter" class="selected" data-option-value="*">All</a></li>
-					<li>/</li>
-					<li><a href="#filter" data-option-value=".admin">Admin</a></li>
-					<li>/</li>
-					<li><a href="#filter" data-option-value=".dashboard">Dashboard</a></li>
-					<li>/</li>
-					<li><a href="#filter" data-option-value=".website">Website</a></li>
-					<li>/</li>
-					<li><a href="#filter" data-option-value=".html5">HTML5</a></li>
-					<li>/</li>
-					<li><a href="#filter" data-option-value=".css3">CSS3</a></li>
-					<li>/</li>
-					<li><a href="#filter" data-option-value=".responsive">Responsive</a></li>
-				</ul>
-			</div>
-
-			<!-- start: Portfolio -->
-			<div id="portfolio-wrapper" class="row-fluid">
-								
-				<div class="col-sm-4 portfolio-item website html5 css3 responsive">
-					
-					<div class="picture"><a href="http://smart.bootstrapmaster.com" title="Smart Responsive Template"><img src="img/portfolio/smart.png" alt=""/><div class="image-overlay-link"></div></a>
-					
-						<div class="item-description alt">
-							<h5><a href="http://smart.bootstrapmaster.com">Smart Responsive Bootstrap Template</a></h5>
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-							</p>
-						</div>
-					</div>	
-				</div>
+				<h2>Projects</h2>
 				
+				<div class="row btn-toolbar ">
+				<div id="filters" class="button-group ">  
+					<div class="btn-group">
+					  	<button class="button btn btn-primary is-checked" data-filter="*">show all</button>
+					  	<button class="button btn btn-primary" data-filter=".admin">Admin</button>
+					 	<button class="button btn btn-primary" data-filter=".dashboard">Dashboard</button>
+					 	<button class="button btn btn-primary" data-filter=".website">Website</button>
+					 </div>
+					 <div class="btn-group">
+					  	<button class="button btn btn-primary" data-filter=".html5">HTML5</button>
+					  	<button class="button btn btn-primary" data-filter=".css3">CSS3</button>
+					  	<button class="button btn btn-primary" data-filter=".responsive">Responsive</button>
+					 </div>
+					   
+				</div>
+				  <div class="btn-group">
+				    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+				    Sort By <span class="caret"></span></button>
+				    
+				      <ul class="dropdown-menu" id="sorts" role="menu">
+					      <li><button class="button dropdown-item" data-sort-by="name">By Name</button></li>
+					      <li><button class="button dropdown-item" data-sort-by="name">By Rating</button></li>
+					    </ul>
+				  </div>
+				</div>
 
-				<div class="col-sm-4 portfolio-item website html5 css3 responsive">
-					<div class="picture">
-						<a href="http://acme.bootstrapmaster.com" title="Title"><img src="img/portfolio/great.png" alt=""/><div class="image-overlay-link"></div></a>
-							<div class="item-description alt">
-								<h5><a href="http://acme.bootstrapmaster.com">Great Responsive Bootstrap Template</a></h5>
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-							</p>
+					
+					<div class="row grid">
+					
+						<div class="col-sm-4 project-item website html5 css3 responsive">
+							
+							<div class="picture"><a href="http://smart.bootstrapmaster.com" title="Smart Responsive Template"><img src="http://msalgotech.com/img/portfolios/app/smartbulb.png" alt=""/><div class="image-overlay-link"></div></a>
+							
+								<div class="item-description alt">
+									<h5><a href="http://smart.bootstrapmaster.com" class="name">Smart Responsive Bootstrap Template</a></h5>
+									<p>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+									</p>
+								</div>
+							</div>	
 						</div>
-					</div>
-				</div>
-
-				<div class="span4 portfolio-item website html5 css3 responsive">
-					<div class="picture"><a href="http://magnus.bootstrapmaster.com" title="Title"><img src="img/portfolio/magnus.png" alt=""/><div class="image-overlay-link"></div></a>
-						<div class="item-description alt">
-							<h5><a href="http://magnus.bootstrapmaster.com">Magnus Responsive Bootstrap Template</a></h5>
-							<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-							</p>
-						</div>	
-					</div>
-				</div>
-
-				<div class="col-sm-4 portfolio-item admin dashboard html5 css3 responsive">
-					<div class="picture"><a href="http://optimus.bootstrapmaster.com" title="Title"><img src="img/portfolio/optimus.png" alt=""/><div class="image-overlay-link"></div></a>
-						<div class="item-description alt">
-							<h5><a href="http://optimus.bootstrapmaster.com">Optimus Dashboard Bootstrap Template</a></h5>
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-							</p>
+						
+						<div class="col-sm-4 project-item website html5 css3 responsive">
+							<div class="picture">
+								<a href="http://acme.bootstrapmaster.com" title="Title"><img src="img/portfolio/great.png" alt=""/><div class="image-overlay-link"></div></a>
+									<div class="item-description alt">
+										<h5><a href="http://acme.bootstrapmaster.com"  class="name">Great Responsive Bootstrap Template</a></h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+									</p>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-4 portfolio-item admin dashboard html5 css3 responsive">
-					<div class="picture"><a href="http://perfectum.bootstrapmaster.com" title="Title"><img src="img/portfolio/perfectum.png" alt=""/><div class="image-overlay-link"></div></a>
-						<div class="item-description alt">
-							<h5><a href="http://perfectum.bootstrapmaster.com">Perfectum Dashboard Bootstrap Template</a></h5>
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-4 portfolio-item website html5 css3 responsive">
-					<div class="picture"><a href="http://redbox.bootstrapmaster.com"><img src="img/portfolio/redbox.png" alt=""/><div class="image-overlay-link"></div></a>
-						<div class="item-description alt">
-							<h5><a href="http://redbox.bootstrapmaster.com">Red Box Responsive Bootstrap Template</a></h5>
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-							</p>
-						</div>
-					</div>
-				</div>
-
-			</div>
-			<!-- end: Portfolio -->
-			</div>
-			<!-- end: Wrapper -->
 		
+						<div class="col-sm-4 project-item website html5 css3 responsive">
+							<div class="picture"><a href="http://magnus.bootstrapmaster.com" title="Title"><img src="img/portfolio/magnus.png" alt=""/><div class="image-overlay-link"></div></a>
+								<div class="item-description alt">
+									<h5><a href="http://magnus.bootstrapmaster.com"  class="name">Magnus Responsive Bootstrap Template</a></h5>
+									<p>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+									</p>
+								</div>	
+							</div>
+						</div>
+		
+						<div class="col-sm-4 project-item admin dashboard html5 css3 responsive">
+							<div class="picture"><a href="http://optimus.bootstrapmaster.com" title="Title"><img src="img/portfolio/optimus.png" alt=""/><div class="image-overlay-link"></div></a>
+								<div class="item-description alt">
+									<h5><a href="http://optimus.bootstrapmaster.com"  class="name">Optimus Dashboard Bootstrap Template</a></h5>
+									<p>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+									</p>
+								</div>
+							</div>
+						</div>
+		
+						<div class="col-sm-4 project-item admin dashboard html5 css3 responsive">
+							<div class="picture"><a href="http://perfectum.bootstrapmaster.com" title="Title"><img src="img/portfolio/perfectum.png" alt=""/><div class="image-overlay-link"></div></a>
+								<div class="item-description alt">
+									<h5><a href="http://perfectum.bootstrapmaster.com"  class="name">Perfectum Dashboard Bootstrap Template</a></h5>
+									<p>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+									</p>
+								</div>
+							</div>
+						</div>
+		
+						<div class="col-sm-4 project-item website html5 css3 responsive">
+							<div class="picture"><a href="http://redbox.bootstrapmaster.com"><img src="img/portfolio/redbox.png" alt=""/><div class="image-overlay-link"></div></a>
+								<div class="item-description alt">
+									<h5><a href="http://redbox.bootstrapmaster.com"  class="name">Red Box Responsive Bootstrap Template</a></h5>
+									<p>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				<!-- end: projects-wrapper -->
 			</div>
+			<!-- end: Container -->
+		
 		</div>
+		<!-- end: Projects -->
 		<div class="page" id="aboutus">
 			<h2 id="teammembers">About Us</h2>
 			<div>
@@ -247,61 +240,7 @@
 				<p>Oracle ceritified java professional</p>
 			</div>
 		</div>
-		<div class="page" id="project">
-			<h2></h2>
-			<blockquote id="">
-				<div>
-					<span class="intro">
-						
-					</span>
-					<span class="more">
-						
-					</span>
-					<span class="projtitle">
-						
-					</span>
-				</div>
-			</blockquote>
-			<blockquote id="">
-				<div>
-					<span class="intro">
-						
-					</span>
-					<span class="more">
-						
-					</span>
-					<span class="projtitle">
-						
-					</span>
-				</div>
-			</blockquote>
-			<blockquote id="">
-				<div>
-					<span class="intro">
-						
-					</span>
-					<span class="more">
-						
-					</span>
-					<span class="projtitle">
-						
-					</span>
-				</div>
-			</blockquote>
-			<blockquote id="">
-				<div>
-					<span class="intro">
-						
-					</span>
-					<span class="more">
-						
-					</span>
-					<span class="projtitle">
-						
-					</span>
-				</div>
-			</blockquote>
-		</div><!--Project page-->
+		
 	</div><!--main-->
 	
 		<footer>
@@ -333,10 +272,6 @@
 								</fieldset>
 
 							</form>
-
-						</div>
-						<!-- end: Contact Form -->
-						
 
 					</div>
 					<!-- end: Map -->
@@ -405,100 +340,17 @@
 					</div>
 					<div class="col-sm-6">
 					</div>
+					</div>
 				</div>
 				<!-- end: Row -->
 			</div><!-- container -->
 		</footer>
 	
-	<script type="text/javascript" src="../js/lib/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="../js/lib/jquery-2.2.3.min.js"></script>
 	<script type="text/javascript" src="../js/lib/bootstrap.min.js"></script>
-	
-	<script type="text/javascript" src="../js/lib/isotope.js"></script>
-<script type="text/javascript" src="../js/lib/jquery.imagesloaded.js"></script>
-<script type="text/javascript" src="../js/lib/bootstrap.min.js"></script>
-<script type="text/javascript" src="../js/lib/flexslider.js"></script>
-<script type="text/javascript" src="../js/lib/carousel.js"></script>
-<script type="text/javascript" src="../js/lib/fancybox.js"></script>
-<script type="text/javascript" src="../js/lib/twitter.js"></script>
-<script type="text/javascript" src="../js/lib/modernizr.custom.79639.js"></script>
-<script type="text/javascript" src="../js/lib/jquery.ba-cond.min.js"></script>
-<script type="text/javascript" src="../js/lib/jquery.slitslider.js"></script>
+	<script type="text/javascript" src="https://npmcdn.com/isotope-layout@3.0.0/dist/isotope.pkgd.js"></script>
+	<script type="text/javascript" src="../js/script.js"></script>
 
-<script type="text/javascript" src="../js/lib/excanvas.js"></script>
-<script type="text/javascript" src="../js/lib/jquery.flot.min.js"></script>
-<script type="text/javascript" src="../js/lib/jquery.flot.pie.min.js"></script>
-<script type="text/javascript" src="../js/lib/jquery.flot.stack.js"></script>
-<script type="text/javascript" src="../js/lib/jquery.flot.resize.min.js"></script>
-
-<script type="text/javascript" src="../js/script.js"></script>
-<script type="text/javascript">	
-	$(function() {
-	
-		var Page = (function() {
-
-			var $navArrows = $( '#nav-arrows' ),
-				$nav = $( '#nav-dots > span' ),
-				slitslider = $( '#slider' ).slitslider( {
-					onBeforeChange : function( slide, pos ) {
-
-						$nav.removeClass( 'nav-dot-current' );
-						$nav.eq( pos ).addClass( 'nav-dot-current' );
-
-					}
-				} ),
-
-				init = function() {
-
-					initEvents();
-					
-				},
-				initEvents = function() {
-
-					// add navigation events
-					$navArrows.children( ':last' ).on( 'click', function() {
-
-						slitslider.next();
-						return false;
-
-					} );
-
-					$navArrows.children( ':first' ).on( 'click', function() {
-						
-						slitslider.previous();
-						return false;
-
-					} );
-
-					$nav.each( function( i ) {
-					
-						$( this ).on( 'click', function( event ) {
-							
-							var $dot = $( this );
-							
-							if( !slitslider.isActive() ) {
-
-								$nav.removeClass( 'nav-dot-current' );
-								$dot.addClass( 'nav-dot-current' );
-							
-							}
-							
-							slitslider.jump( i + 1 );
-							return false;
-						
-						} );
-						
-					} );
-
-				};
-
-				return { init : init };
-
-		})();
-
-		Page.init();
-	
-	});
-</script>
 <!-- end: Java Script -->
 
 </body>
